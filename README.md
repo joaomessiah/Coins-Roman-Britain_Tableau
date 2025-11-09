@@ -11,6 +11,8 @@ Original Author: Richard Henry
 
 Dataset DOI/ID: Henry, R. (2023). Coin corpus divided by ABCDEF Phase by parish [digital object]. York: Archaeology Data Service. Object ID: 2362226
 
+Link to Tableau: https://public.tableau.com/views/CoinsfromRomanBritain/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 Link to Source: https://archaeologydataservice.ac.uk/archives/collections/view/1005487/index.cfm 
 
 ## Data Acquisition & Extraction:
