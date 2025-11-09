@@ -2,10 +2,15 @@
 This dashboard shows Roman coin finds from England and Wales, based on the “Coin corpus divided by ABCDEF Phase by parish” dataset. It focuses on coins dated between c. AD 260–402, organized into five historical phases (A–E).
 
 Spatial Coverage: England and Wales (United Kingdom)
+
 Temporal Coverage: c. AD 260–402, divided into Periods A, B, C, D, and E
+
 Data Source: Archaeology Data Service (ADS)
+
 Original Author: Richard Henry
+
 Dataset DOI/ID: Henry, R. (2023). Coin corpus divided by ABCDEF Phase by parish [digital object]. York: Archaeology Data Service. Object ID: 2362226
+
 Link to Source: https://archaeologydataservice.ac.uk/archives/collections/view/1005487/index.cfm 
 
 ## Data Acquisition & Extraction:
