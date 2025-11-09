@@ -8,36 +8,27 @@ Original Author: Richard Henry
 Dataset DOI/ID: Henry, R. (2023). Coin corpus divided by ABCDEF Phase by parish [digital object]. York: Archaeology Data Service. Object ID: 2362226
 Link to Source: https://archaeologydataservice.ac.uk/archives/collections/view/1005487/index.cfm 
 
-Data Acquisition & Extraction:
+## Data Acquisition & Extraction:
 Data downloaded from the Archaeology Data Service (ADS) as provided by Richard Henry (2023).
-
 
 Source dataset includes parish-level quantification of Roman coin finds categorized by Periods A–F.
 
-
 For this dashboard, only coins dated to Periods A–E (c. AD 260–402) were included.
 
-
-Data Cleaning & Preparation:
+## Data Cleaning & Preparation:
 Standardization of column names to maintain consistency.
-
 
 Removal of period F as per research scope.
 
-
 Recalculation of the column “Total quantity”, considering only Periods A through E. 
-
 
 Validated and retained ADS-provided geographic coordinates (lat/long) for geospatial plotting.
 
-
 No additional data manipulation or inference beyond the supplied dataset.
 
-
-Data Modelling & Visualization Methodology:
-TOP 10 Counties (Total Quantity of Coins)
+## Data Modelling & Visualization Methodology:
+### TOP 10 Counties (Total Quantity of Coins)
 The “County” field was placed on the Rows shelf to list each county, and the “Total Quantity (ABCDE)” field was placed on the Columns shelf to measure coin counts.
-
 
 The “Total Quantity (ABCDE)” value was aggregated using SUM, ensuring that the chart reflects the combined coin quantities from all five periods (A–E), dating c. AD 260–402.
 
@@ -48,14 +39,13 @@ A filter was applied to the County field to display only the Top 10 counties wit
 This visual highlights regional disparities in coin circulation and helps users compare which counties had the strongest representation of Roman coinage within the dataset.
 
 
-Coins by Historical Period
+### Coins by Historical Period
 This visual displays the total number of coins recorded for each historical period (A–E), covering c. AD 260–402.
 
 
 The chart was built using the Measure Names field on the Columns shelf and Measure Values on the Rows shelf.
 
-
-A Measure Names filter was applied to include only the five relevant fields:
+### A Measure Names filter was applied to include only the five relevant fields:
  Quantity_Period_A, Quantity_Period_B, Quantity_Period_C, Quantity_Period_D, and Quantity_Period_E.
 
 
@@ -69,7 +59,7 @@ The Marks card was set to Line, with each period assigned a different colour to 
 
 The final visual provides a clear overview of how coin circulation fluctuated through late Roman historical periods across England and Wales.
 
-Social category Proportion
+### Social category Proportion
 This visual represents the proportion of Major Social Categories identified in the dataset, based on the classifications provided by the original author.
 
 
@@ -84,7 +74,7 @@ To maintain clarity and focus on the most relevant categories, two categories (�
 
 The result highlights the dominant types of settlements represented in the dataset, allowing users to quickly understand the social context of the coin-find locations.
 
-TOP 20 Parishes (Total Quantity of Coins)
+### TOP 20 Parishes (Total Quantity of Coins)
 The field “Parish” was placed on the Rows shelf to list each parish, and “Total quantity (ABCDE)” was placed on the Columns shelf, aggregated using SUM to show the total number of coins found per parish.
 
 
@@ -96,7 +86,7 @@ This ranking uses the combined total across Periods A–E (c. AD 260–402), ens
 
 The resulting bar chart allows users to quickly identify the parishes with the strongest representation of Roman coins and explore variations in coin deposition intensity across locations.
 
-Parish Locations (England and Wales)
+### Parish Locations Map (England and Wales)
 Assigned Latitude and Longitude fields with the correct Geographic Role (Latitude / Longitude).
 
 
